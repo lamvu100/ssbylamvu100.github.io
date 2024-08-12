@@ -40,6 +40,4 @@ function solve_sudoku() {
         console.log(typeof numbers);
         cells[i].value = result;
     }//after successfully created we will move to create sudoku algorithm, we have to use while loop for this
-    cells[10].value = 0;
-    console.log(cells[10]);
 }
